@@ -18,3 +18,4 @@ if (((firstCard == "king") && (secondCard == "queen")) || ((firstCard == "queen"
 } else {
 	alert("Sorry, try again.");
 }
+/* Added if...else statement per Unit 9 Assignment instructions */
