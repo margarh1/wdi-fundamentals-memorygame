@@ -4,3 +4,4 @@ var cardOne = "queen";
 var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
+/* Added variables and values as requested of Unit 8 Assignment */
