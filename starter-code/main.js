@@ -12,7 +12,7 @@ var isMatch = function(array) {
 		alert("Sorry, try again.");
 	}
 	gameBoard.innerHTML = '';
-	createBoard(cards);
+	createBoard();
 }
 
 var isTwoCards = function() {
@@ -28,7 +28,7 @@ var isTwoCards = function() {
 	}
 }
 
-var createBoard = function(cards) {
+var createBoard = function() {
 	for (var idx = 0; idx < cards.length; idx++) {
 		var newCard = document.createElement("div");
 		newCard.setAttribute("class", "card");
@@ -38,6 +38,6 @@ var createBoard = function(cards) {
 	}
 }
 
-createBoard(cards);
+createBoard();
 // Adjusted and streamlined per Unit 11 Assignment instructions
 // Still has a display bug to try to fix
